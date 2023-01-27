@@ -1,0 +1,51 @@
+.port-h1 {
+  font-size: 45px;
+}
+
+.port-holder>.df.jc-fe {
+  font-size: 20px;
+}
+
+.part-list {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+  row-gap: 1.5rem;
+}
+
+.part-list>div {
+  border-radius: 5px;
+  background-color: hsl(214, 44%, 60%);
+}
+
+.port-main {
+  padding-bottom: 8px;
+}
+
+.port-main>.jc-fe {
+  border-radius: 8px 8px 0 0;
+  background-color: hsl(214, 44%, 52%);
+}
+
+.port-main>.jc-fe img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.port-img {
+  min-height: 400px;
+  max-height: 400px;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .port-h1 {
+    font-size: 30px;
+  }
+}
